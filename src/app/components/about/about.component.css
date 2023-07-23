@@ -22,8 +22,8 @@
   align-items: center;
 }
 .photo img {
-  max-width: 15rem;
-  clip-path: circle(125px at center);
+  width: 30rem;
+  clip-path: circle(15rem at center);
 }
 .mySkills {
   margin: 2rem 0;
@@ -72,5 +72,9 @@
   }
   .mySkills .body {
     gap: 0.5rem;
+  }
+  .photo img {
+    width: 15rem;
+    clip-path: circle(8rem at center);
   }
 }
