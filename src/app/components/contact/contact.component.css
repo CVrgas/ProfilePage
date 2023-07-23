@@ -1,0 +1,10 @@
+.wrapper {
+  padding: 20px 25px;
+  height: 80dvh;
+}
+.wrapper h1 {
+  color: var(--one);
+  border-bottom: 1px solid var(--one);
+  padding-left: 25px;
+  text-transform: capitalize;
+}

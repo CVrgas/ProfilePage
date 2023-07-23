@@ -1,0 +1,104 @@
+.container section {
+  color: white;
+  margin: 5% 0;
+  border: 1px solid lime;
+}
+.first-section {
+  display: flex;
+  justify-content: space-between;
+}
+.first-section .intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5%;
+}
+.first-section .intro p {
+  color: rgba(255, 255, 255, 0.5);
+}
+.first-section .intro h1 {
+  color: blueviolet;
+  font-size: 50px;
+  text-transform: capitalize;
+}
+.second-section {
+  background: black;
+}
+.second-section > * {
+  background-color: rgba(128, 128, 128, 0.3);
+}
+.second-section .about {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 5%;
+}
+.second-section .about h4 {
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  text-transform: capitalize;
+  position: relative;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.second-section h4::before {
+  content: "";
+  position: absolute;
+  width: 200px;
+  right: 45%;
+  height: 5px;
+  background: linear-gradient(90deg, purple, blueviolet);
+  border-radius: 10px;
+  bottom: 0;
+}
+.second-section .about p {
+  text-align: justify;
+  padding-right: 10px;
+}
+.second-section .skills h1 {
+  margin: 20% 0 4% 0;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+}
+.second-section .skills h1::before {
+  content: "";
+  position: absolute;
+  width: 200px;
+  right: 40%;
+  height: 5px;
+  background: linear-gradient(90deg, purple, blueviolet);
+  border-radius: 10px;
+  bottom: 0;
+}
+.second-section .skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: space-evenly;
+  gap: 75px;
+}
+.second-section .skills ul li {
+  border: 10px solid white;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.second-section .skills ul li:nth-child(even) {
+  border-right-color: transparent;
+}
+.second-section .skills ul li:nth-child(odd) {
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+}
+.third-section {
+  background-color: rgba(128, 128, 128, 0.3);
+}
+.container section {
+  height: 400px;
+}

@@ -1,0 +1,118 @@
+.card {
+  --size: 20rem;
+  width: calc(var(--size) * 2);
+  height: var(--size);
+  position: relative;
+  background-color: transparent;
+  overflow: hidden;
+  border-radius: 8px;
+  transition: 1s;
+}
+.wrapper {
+  position: absolute;
+  border-radius: 8px;
+  inset: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a1a1a;
+  padding: 0.8rem;
+}
+.wrapper > * {
+  flex: 1;
+  color: var(--base-color);
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  height: 95%;
+  padding: 5px;
+}
+.info .title {
+  text-align: center;
+  flex: 1;
+  height: max-content;
+  font-size: 1.5rem;
+}
+.info .descript {
+  flex: 3;
+  text-align: justify;
+  padding: 5px;
+  font-size: 1rem;
+}
+.info .buttons {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  gap: 8%;
+}
+.info .buttons a {
+  width: 50px;
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: #e3edf7;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.935),
+    -6px -6px 10px -1px rgba(255, 255, 255, 0.1);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: rgb(19, 164, 255);
+  text-decoration: none;
+  font-size: 1.7rem;
+  transition: 1s;
+}
+.info .buttons a:hover {
+  color: black;
+  /* transform: scale(1.05); */
+  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+    inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7);
+}
+
+.img {
+  height: 85%;
+  background-color: transparent;
+  border: 3px solid rgba(255, 255, 255, 0.2);
+  font-size: 1rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.img img {
+  width: 100%;
+}
+.card::before {
+  content: "";
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.2);
+  inset: -200px;
+  transition: 1s;
+}
+.card:hover::before {
+  animation: 3s rotate linear infinite;
+  background: linear-gradient(
+    145deg,
+    rgb(0, 255, 0),
+    rgb(0, 200, 200),
+    rgb(0, 0, 255)
+  );
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@media screen and (max-width: 800px) {
+  .card {
+    width: var(--size);
+  }
+  .img {
+    display: none;
+  }
+}

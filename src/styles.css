@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --one: #dfd7c3;
+  --two: #78aca9;
+  --three: #627273;
+  --four: #577c98;
+  --five: #173140;
+
+  --base-color: #eeeeee;
+  --background-color: white;
+  /* --base-color: black;
+  --background-color: black; */
+  --High-font-color: rgb(209, 28, 28);
+  --low-font-color: rgb(0, 0, 0);
+  --misc-color: rgb(0, 0, 0);
+  --base-shadow-color: rgba(20, 20, 20, 0.5);
+  --base-back-shadow-color: rgb(210, 210, 210);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  /* background-color: #173140; */
+  background-color: var(--base-color);
+  font-size: 30px;
+}

@@ -1,0 +1,17 @@
+<div class="card">
+  <div class="wrapper">
+    <div class="info">
+      <h3 class="title">{{ project.title }}</h3>
+      <p class="descript">
+        {{ project.description }}
+      </p>
+      <div class="buttons">
+        <a [href]="project.githubCode"><i class="fa-brands fa-github"></i></a>
+        <a [href]="project.PreviewUrl"><i class="fa-solid fa-play"></i></a>
+      </div>
+    </div>
+    <div class="img">
+      <img [src]="project.imgUrl" alt="{{ project.title }} preview Image" />
+    </div>
+  </div>
+</div>

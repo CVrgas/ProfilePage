@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 1rem 5rem;
+}
+.platform {
+  width: 10rem;
+  height: 8rem;
+  transition: 1s;
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  padding: 0 1rem;
+}
+.platform img {
+  width: 100%;
+  transition: 0.5s;
+}
+.platform:hover {
+  background-color: rgb(229, 229, 229);
+  border-radius: 10px;
+  border: 1px solid white;
+  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+    inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7);
+}
+.platform:hover img {
+  width: 90%;
+}
