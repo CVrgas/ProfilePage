@@ -14,7 +14,7 @@ export class AppComponent {
       title: 'Discord bot',
       description:
         'This is a bot which plays music from url(Youtube, Spotify) and ChatGPT conversation',
-      imgUrl: '../../../assets/Discordbot.png',
+      imgUrl: 'assets/Discordbot.png',
       githubCode: 'https://github.com/CVrgas/Discordbot',
       PreviewUrl: '',
     },
@@ -22,7 +22,7 @@ export class AppComponent {
       title: 'Library Management',
       description:
         'a online library where u can search, download books and apply for a physical copy.',
-      imgUrl: '../../../assets/LibraryProjectSS.png',
+      imgUrl: 'assets/LibraryProjectSS.png',
       githubCode: 'https://github.com/CVrgas/library-management',
       PreviewUrl: 'https://cvrgas.github.io/library-management/',
     },
@@ -31,12 +31,12 @@ export class AppComponent {
     {
       name: 'pluralsight',
       profileUrl: 'https://app.pluralsight.com/profile/cvrgas#0',
-      iconUrl: '../../../assets/PS_logo_F-14.png',
+      iconUrl: 'assets/PS_logo_F-14.png',
     },
     {
       name: 'Alura-oracle',
       profileUrl: 'https://app.aluracursos.com/user/CristianVargas',
-      iconUrl: '../../../assets/logo-aluraespanhol.svg',
+      iconUrl: 'assets/logo-aluraespanhol.svg',
     },
   ];
 }
