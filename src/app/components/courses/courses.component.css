@@ -4,6 +4,14 @@
   align-items: center;
   flex-wrap: wrap;
   padding: 1rem 1rem;
+  background: #ececec;
+}
+.container h1 {
+  background: linear-gradient(90deg, rgb(72, 0, 255), rgb(119, 0, 255), purple);
+  background-clip: text;
+  color: transparent;
+  width: max-content;
+  font-size: 3rem;
 }
 .platform {
   width: 10rem;

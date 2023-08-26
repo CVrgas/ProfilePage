@@ -115,4 +115,13 @@
   .img {
     display: none;
   }
+  .card::before {
+    animation: 3s rotate linear infinite;
+    background: linear-gradient(
+      145deg,
+      rgb(0, 255, 0),
+      rgb(0, 200, 200),
+      rgb(0, 0, 255)
+    );
+  }
 }

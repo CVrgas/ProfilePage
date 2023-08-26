@@ -1,11 +1,14 @@
 footer {
-  padding: 5rem;
+  padding: 2rem 5rem;
   font-size: 1rem;
 }
 .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.container .middle {
+  color: rgb(61, 0, 117);
 }
 .container .middle span,
 i {

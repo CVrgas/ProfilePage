@@ -39,4 +39,5 @@ export class AppComponent {
       iconUrl: 'assets/logo-aluraespanhol.svg',
     },
   ];
+  // ng deploy --base-href=/ProfilePage/
 }

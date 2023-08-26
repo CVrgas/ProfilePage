@@ -8,7 +8,6 @@ import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ProjectCardComponent } from './components/project-card/project-card.component';
-import { TestCardComponent } from './components/test-card/test-card.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CoursesComponent } from './components/courses/courses.component';
 
@@ -20,7 +19,6 @@ import { CoursesComponent } from './components/courses/courses.component';
     ContactComponent,
     NavbarComponent,
     ProjectCardComponent,
-    TestCardComponent,
     FooterComponent,
     CoursesComponent
   ],

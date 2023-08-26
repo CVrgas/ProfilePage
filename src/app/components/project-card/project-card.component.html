@@ -6,8 +6,12 @@
         {{ project.description }}
       </p>
       <div class="buttons">
-        <a [href]="project.githubCode"><i class="fa-brands fa-github"></i></a>
-        <a [href]="project.PreviewUrl"><i class="fa-solid fa-play"></i></a>
+        <a [href]="project.githubCode" *ngIf="project.githubCode"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a [href]="project.PreviewUrl" *ngIf="project.PreviewUrl"
+          ><i class="fa-solid fa-play"></i
+        ></a>
       </div>
     </div>
     <div class="img">
