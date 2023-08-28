@@ -26,6 +26,22 @@ export class AppComponent {
       githubCode: 'https://github.com/CVrgas/library-management',
       PreviewUrl: 'https://cvrgas.github.io/library-management/',
     },
+    {
+      title: 'Weather App',
+      description:
+        'a user-friendly interface where individuals can search for and retrieve weather data for various locations using OpenWeather API.',
+      imgUrl: 'assets/own_weatherApp.png',
+      githubCode: 'https://github.com/CVrgas/Weather',
+      PreviewUrl: 'https://cvrgas.github.io/Weather/',
+    },
+    {
+      title: 'Collection Managar',
+      description:
+        'this React-Electron app will provide a convenient and efficient way for coin collectors to store, manage, and organize their coin collections on their desktop computers.',
+      imgUrl: 'assets/MyCoinCollection.png',
+      githubCode: 'https://github.com/CVrgas/Numismatics-ColletionManager',
+      PreviewUrl: '',
+    },
   ];
   platforms: platform[] = [
     {
